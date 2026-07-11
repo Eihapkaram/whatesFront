@@ -3,7 +3,7 @@ import axios from 'axios'
 
 // إعداد كونسول أساسي للـ Axios ليتصل بـ Laravel
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api',
+  baseURL: import.meta.env.VITE_API_BASE_URL || 'whatsapplaravel-production.up.railway.app/api',
 })
 
 export const useWhatsappStore = defineStore('whatsapp', {
